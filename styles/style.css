@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #121417;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Start Part!!!! */
+.container-start {
+  display: flex;
+  width: 375px;
+  background-color: #1e252e;
+  border-radius: 30px;
+}
+
+.container-end {
+  display: flex;
+  width: 375px;
+  background-color: #1e252e;
+  border-radius: 30px;
+}
+
+.vanish {
+  display: none;
+}
+
+.rating-start {
+  color: #7c8798;
+  margin: 35px 30px;
+}
+
+.rating-start img {
+  background-color: #2e343c;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.rating-start h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin: 25px 0 10px 0;
+}
+
+.rating {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating-points {
+  float: left;
+  display: flex;
+  background-color: #2e343c;
+  color: #7c8798;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.rating-points:hover {
+  background-color: #7c8798;
+  color: #fff;
+  cursor: pointer;
+}
+
+.rating-points:focus {
+  background-color: #fb7413;
+  color: #fff;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #fb7413;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 40px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #fb7413;
+  cursor: pointer;
+}
+
+/* Thank you part!!!! */
+
+.thank-you {
+  margin: 45px 20px;
+  text-align: center;
+  color: #7c8798;
+}
+
+.thank-you h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  margin: 25px 0 10px 0;
+}
+
+.text-selection {
+  background-color: #2e343c;
+  margin: 30px 60px 5px 60px;
+  padding: 5px 15px;
+  border-radius: 40px;
+  color: #fb7413;
+}
+
+@media (min-width: 768px) {
+  .container-start,
+  .container-end {
+    width: 450px;
+    height: 450px;
+    padding: 35;
+  }
+  .button,
+  .rating-points,
+  .thank-you h2 {
+    margin-top: 35px;
+  }
+}
