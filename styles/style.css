@@ -47,7 +47,7 @@ body {
   border-radius: 50%;
 }
 
-.rating-start h2 {
+.rating-start h1 {
   font-size: 25px;
   font-weight: 700;
   color: #fff;
@@ -87,7 +87,7 @@ body {
 }
 
 .button {
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: #fb7413;
   color: #fff;
   border: none;
@@ -114,7 +114,7 @@ body {
   color: #7c8798;
 }
 
-.thank-you h2 {
+.thank-you h1 {
   font-size: 30px;
   font-weight: 400;
   color: #fff;
@@ -139,6 +139,6 @@ body {
   .button,
   .rating-points,
   .thank-you h2 {
-    margin-top: 35px;
+    margin-top: 50px;
   }
 }
